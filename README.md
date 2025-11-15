@@ -2,6 +2,7 @@
 This project is a Golang API server that provides CRUD operations for tracking workout exercises. Data is stored in MongoDB using the official Go MongoDB driver.
 
 ## 📂 Project Structure
+```
 WellnessLogger/
 │
 ├── main.go
@@ -13,6 +14,7 @@ WellnessLogger/
 │ └── exercise_handler.go
 └── routes/
 └── exercise_routes.go
+```
 
 
 ## Run the Server
