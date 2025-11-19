@@ -12,6 +12,6 @@ func main() {
 	config.ConnectDB()          // ✅ Initialize Mongo before using it
 	routes.RegisterExerciseRoutes()
 
-	fmt.Println("🚀 Server running on http://localhost:8080")
-	http.ListenAndServe(":8080", nil)
+	fmt.Println("🚀 Server running on http://localhost:8000")
+	http.ListenAndServe(":8000", nil)
 }
